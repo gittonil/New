@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/nilesh/AndroidStudioProjects/JSONParsingTutorial/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/nilesh/AndroidStudioProjects/JSONParsingTutorial/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/nilesh/AndroidStudioProjects/JSONParsingTutorial/app/build/intermediates/res/merged/debug/layout/row.xml",
+        "source": "/home/nilesh/AndroidStudioProjects/JSONParsingTutorial/app/src/main/res/layout/row.xml"
+    }
+]

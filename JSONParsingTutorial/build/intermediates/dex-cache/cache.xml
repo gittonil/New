@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/nilesh/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/home/nilesh/AndroidStudioProjects/JSONParsingTutorial/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0_902da99ac91ef23041bc6ba89e08d1d90d79c47d.jar" />
+    </item>
+    <item
+        jar="/home/nilesh/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.1/f5aa318bda4c6c8d688c9d00b90681dcd82ce636/httpcore-4.4.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f5aa318bda4c6c8d688c9d00b90681dcd82ce636">
+        <dex dex="/home/nilesh/AndroidStudioProjects/JSONParsingTutorial/app/build/intermediates/pre-dexed/debug/httpcore-4.4.1_675c828d58f0be7babce4d7f67241f703338204e.jar" />
+    </item>
+
+</items>
