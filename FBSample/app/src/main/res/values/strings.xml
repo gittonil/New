@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FBSample</string>
+    <string name="facebook_id">201218646928770</string>
+    <string name="server_client_id"> 939377642144-mcgsrhgve6rntk9l058bds8opiop833u.apps.googleusercontent.com</string>
+    <string name="title_activity_google">GoogleActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,58 @@
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.android.application'
+
+android {
+
+    configurations{
+        all*.exclude module: 'servlet-api'
+    }
+
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "pack.fb.nil.fbsample"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+
+
+//repositories {
+//    mavenCentral();
+//}
+
+repositories { maven { url "http://dl.bintray.com/android/android-tools" } }
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    apply plugin: 'com.google.gms.google-services'
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.google.android.gms:play-services:8.4.0'
+//    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile ('com.facebook.android:facebook-android-sdk:4.+'){
+        exclude group: 'com.android.support', module: 'multidex'
+    }
+    compile 'com.android.support:design:23.2.1'
+    compile 'com.android.support:support-v4:23.2.1'
+    compile ('com.google.android.gms:play-services-gcm:8.4.0'){
+        exclude group: 'com.android.support', module: 'multidex'
+    }
+    compile 'com.google.android.gms:play-services-analytics:8.4.0'
+    //    compile 'com.google.android.gms:play-services-base:8.4.0'
+//    compile 'com.google.android.gms:play-services-maps:8.4.0'
+//    compile 'com.google.apis:google-api-services-plus:v1-rev375-1.21.0'
+//    compile 'com.google.gms:google-services:2.1.0-beta3'
+
+}
+

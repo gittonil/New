@@ -1,0 +1,61 @@
+{
+  "project_info": {
+    "project_id": "fbsample-105dd",
+    "project_number": "939377642144",
+    "name": "FBSample"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939377642144:android:730054d1f8b9ba6a",
+        "client_id": "android:pack.fb.nil.fbsample",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "pack.fb.nil.fbsample",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939377642144-d8q1tpglepdv4gvcpb2b3656ak2n839e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pack.fb.nil.fbsample",
+            "certificate_hash": "5D81BF3014EEFE11ACC3C49551BF27E4CCD12E95"
+          }
+        },
+        {
+          "client_id": "939377642144-m9h1h8jtc4i1bgabfhbnfqkthpsj0cr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939377642144-m9h1h8jtc4i1bgabfhbnfqkthpsj0cr9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}
